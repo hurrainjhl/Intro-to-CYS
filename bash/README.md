@@ -29,3 +29,13 @@ To start the quiz, execute the script with:
 The script will read each question from questions.txt, prompt you for an answer, and display whether your answer is correct or not. 
 At the end of the quiz, your total score will be displayed.
 
+Make sure you have a file named "questions.txt" with each line containing a question followed by a comma and the correct answer. For example:
+
+
+What is the capital of France?,Paris
+Who is the president of the United States?,Joe Biden
+...
+
+
+Save this script to a file, make it executable with chmod +x script_name.sh, and then run it with ./script_name.sh.
+
